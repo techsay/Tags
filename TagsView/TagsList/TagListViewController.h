@@ -1,12 +1,11 @@
 //
-//  PublicHeader.h
+//  TagListViewController.h
 //  TagsList
 //
-//  Created by 聂小波 on 2023/5/17.
+//  Created by 聂小波 on 2023/5/18.
 //
 
-#ifndef PublicHeader_h
-#define PublicHeader_h
+#import <UIKit/UIKit.h>
 
 /// 引用
 #define WEAK_SELF __weak __typeof(&*self)weakSelf = self;
@@ -17,4 +16,10 @@
 #define Screen_Width [UIScreen mainScreen].bounds.size.width  //当前屏幕宽度
 #define Screen_Scale (MIN(Screen_Height, Screen_Width) / 375.0)  // 37屏幕比例
 
-#endif /* PublicHeader_h */
+NS_ASSUME_NONNULL_BEGIN
+
+@interface TagListViewController : UIViewController
+
+@end
+
+NS_ASSUME_NONNULL_END

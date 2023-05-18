@@ -11,7 +11,6 @@
 		5411EC094947F774E0E1CF21 /* Pods_TagsList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510AEC8E6FD2E35D20BCB77 /* Pods_TagsList.framework */; };
 		BC062AEC2A14777B003A12EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062AEB2A14777B003A12EE /* AppDelegate.m */; };
 		BC062AEF2A14777B003A12EE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062AEE2A14777B003A12EE /* SceneDelegate.m */; };
-		BC062AF22A14777B003A12EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062AF12A14777B003A12EE /* ViewController.m */; };
 		BC062AF52A14777B003A12EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC062AF32A14777B003A12EE /* Main.storyboard */; };
 		BC062AF72A14777C003A12EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC062AF62A14777C003A12EE /* Assets.xcassets */; };
 		BC062AFA2A14777C003A12EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC062AF82A14777C003A12EE /* LaunchScreen.storyboard */; };
@@ -19,8 +18,7 @@
 		BC062B072A14777C003A12EE /* TagsListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062B062A14777C003A12EE /* TagsListTests.m */; };
 		BC062B112A14777C003A12EE /* TagsListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062B102A14777C003A12EE /* TagsListUITests.m */; };
 		BC062B132A14777C003A12EE /* TagsListUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062B122A14777C003A12EE /* TagsListUITestsLaunchTests.m */; };
-		BC062B222A1479A4003A12EE /* BTagsUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062B212A1479A4003A12EE /* BTagsUITableViewCell.m */; };
-		BC062B252A147ABA003A12EE /* BTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062B242A147ABA003A12EE /* BTagsView.m */; };
+		BC062B762A16369A003A12EE /* TagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC062B752A16369A003A12EE /* TagListViewController.m */; };
 		DA18327E0604941AD6AC9A70 /* Pods_TagsList_TagsListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9945B899A7181E8CD69FCA /* Pods_TagsList_TagsListUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +52,6 @@
 		BC062AEB2A14777B003A12EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC062AED2A14777B003A12EE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		BC062AEE2A14777B003A12EE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		BC062AF02A14777B003A12EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC062AF12A14777B003A12EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BC062AF42A14777B003A12EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC062AF62A14777C003A12EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC062AF92A14777C003A12EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,11 +62,8 @@
 		BC062B0C2A14777C003A12EE /* TagsListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagsListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC062B102A14777C003A12EE /* TagsListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsListUITests.m; sourceTree = "<group>"; };
 		BC062B122A14777C003A12EE /* TagsListUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsListUITestsLaunchTests.m; sourceTree = "<group>"; };
-		BC062B202A1479A4003A12EE /* BTagsUITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTagsUITableViewCell.h; sourceTree = "<group>"; };
-		BC062B212A1479A4003A12EE /* BTagsUITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTagsUITableViewCell.m; sourceTree = "<group>"; };
-		BC062B232A147ABA003A12EE /* BTagsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTagsView.h; sourceTree = "<group>"; };
-		BC062B242A147ABA003A12EE /* BTagsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTagsView.m; sourceTree = "<group>"; };
-		BC062B262A14B969003A12EE /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
+		BC062B742A16369A003A12EE /* TagListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagListViewController.h; sourceTree = "<group>"; };
+		BC062B752A16369A003A12EE /* TagListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagListViewController.m; sourceTree = "<group>"; };
 		CB9945B899A7181E8CD69FCA /* Pods_TagsList_TagsListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagsList_TagsListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC04B3D5AFA0D701E1113EE /* Pods_TagsListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagsListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -138,18 +131,17 @@
 		BC062AE92A14777B003A12EE /* TagsList */ = {
 			isa = PBXGroup;
 			children = (
-				BC062B1F2A147985003A12EE /* List */,
 				BC062AEA2A14777B003A12EE /* AppDelegate.h */,
 				BC062AEB2A14777B003A12EE /* AppDelegate.m */,
 				BC062AED2A14777B003A12EE /* SceneDelegate.h */,
 				BC062AEE2A14777B003A12EE /* SceneDelegate.m */,
-				BC062AF02A14777B003A12EE /* ViewController.h */,
-				BC062AF12A14777B003A12EE /* ViewController.m */,
 				BC062AF32A14777B003A12EE /* Main.storyboard */,
 				BC062AF62A14777C003A12EE /* Assets.xcassets */,
 				BC062AF82A14777C003A12EE /* LaunchScreen.storyboard */,
 				BC062AFB2A14777C003A12EE /* Info.plist */,
 				BC062AFC2A14777C003A12EE /* main.m */,
+				BC062B742A16369A003A12EE /* TagListViewController.h */,
+				BC062B752A16369A003A12EE /* TagListViewController.m */,
 			);
 			path = TagsList;
 			sourceTree = "<group>";
@@ -169,18 +161,6 @@
 				BC062B122A14777C003A12EE /* TagsListUITestsLaunchTests.m */,
 			);
 			path = TagsListUITests;
-			sourceTree = "<group>";
-		};
-		BC062B1F2A147985003A12EE /* List */ = {
-			isa = PBXGroup;
-			children = (
-				BC062B202A1479A4003A12EE /* BTagsUITableViewCell.h */,
-				BC062B212A1479A4003A12EE /* BTagsUITableViewCell.m */,
-				BC062B232A147ABA003A12EE /* BTagsView.h */,
-				BC062B242A147ABA003A12EE /* BTagsView.m */,
-				BC062B262A14B969003A12EE /* PublicHeader.h */,
-			);
-			path = List;
 			sourceTree = "<group>";
 		};
 		BF0BFD9826BF8E12B099E3DB /* Pods */ = {
@@ -434,12 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC062AF22A14777B003A12EE /* ViewController.m in Sources */,
 				BC062AEC2A14777B003A12EE /* AppDelegate.m in Sources */,
-				BC062B252A147ABA003A12EE /* BTagsView.m in Sources */,
 				BC062AFD2A14777C003A12EE /* main.m in Sources */,
 				BC062AEF2A14777B003A12EE /* SceneDelegate.m in Sources */,
-				BC062B222A1479A4003A12EE /* BTagsUITableViewCell.m in Sources */,
+				BC062B762A16369A003A12EE /* TagListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
