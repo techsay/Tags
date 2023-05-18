@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - UICollectionViewLeftAlignedLayout (1.1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - UICollectionViewLeftAlignedLayout
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - UICollectionViewLeftAlignedLayout
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  UICollectionViewLeftAlignedLayout: 7ac8b0a34e5c8cf41445b2dd19438c8e9aeca521
+
+PODFILE CHECKSUM: ca271e789fc5f4a6026b0683c2a493be372ca7f4
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module Pods_TagsListTests {
+  umbrella header "Pods-TagsListTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
