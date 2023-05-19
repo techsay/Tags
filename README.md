@@ -52,7 +52,7 @@ UITableViewCell 嵌套 UICollectionViewCell ，标签列表页，城市列表页
 
 ##### 效果图：
 
-<img src="images/tags.png" alt="scrimage" style="zoom:40%;" />
+<img src="images/tags.png" alt="scrimage" style="zoom:30%;" />
 
 
 
