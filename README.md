@@ -5,9 +5,19 @@ UITableViewCell 嵌套 UICollectionViewCell ，标签列表页，城市列表页
 
 
 
+### OC实现 ： 
+
+**Demo_OC/TagsList/TagListViewController.m**
+
 > 1、针对UITableViewCell 嵌入 ScrollView 的场景，因为 ScrollView 高度是动态的，而 ScrollView 中 tags view 根据数量和宽度不同需要自动换行。
 >
 > 2、tags 居左显示，使用 **pod** **'UICollectionViewLeftAlignedLayout'**
+
+
+
+### Swift实现：
+
+**Demo_Swift/Tags/ViewController.swift**
 
 
 
@@ -20,7 +30,7 @@ UITableViewCell 嵌套 UICollectionViewCell ，标签列表页，城市列表页
 
 
 
-##### 方案2: （尝试下来存在兼容问题）
+##### 方案2: （对子View约束严格，稍有不慎会导致兼容问题）
 
 ```
 1、通过 layout.estimatedItemSize 设置自动计算布局高度
@@ -40,7 +50,7 @@ UITableViewCell 嵌套 UICollectionViewCell ，标签列表页，城市列表页
 
 
 
-效果图：
+##### 效果图：
 
 <img src="images/tags.png" alt="scrimage" style="zoom:40%;" />
 
